@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background-color: rgb(18, 18, 62);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(153, 153, 226);
+    font-size: 1.04rem;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 120px 0px;
+
+}
+
+.firstSection>div {
+    width: 40%;
+}
+
+.leftSection {
+    font-size: 3rem;
+}
+
+.rightSection img {
+    width: 80%;
+}
+
+.purple {
+    color: rgb(170, 107, 228);
+}
+
+#element {
+    color: rgb(170, 107, 228);
+}
+#links{
+    display: flex;
+    gap:20px;
+
+}
+#social-link{
+ font-size: 20px;
+ text-decoration: none;   
+ background-color:#1e2167;
+ margin-right: 20px;
+ padding: 12px;
+ border: 2px solid rgb(218, 215, 221);
+ border-radius: 6px;
+ color:white;
+ cursor: pointer;
+}
+#social-link:hover{
+    background-color: white;
+    color:#1e2167;
+    transition: 0.3s all ease-in-out;
+}
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+    margin-top: 150px;
+}
+
+main hr {
+    border: 0;
+    background: rgb(153, 153, 226);
+    height: 1.2px;
+    margin: 60px 84px;
+}
+
+.secondSection h1 {
+    font-size: 1.9rem;
+}
+
+.text-gray {
+    color: gray;
+}
+
+.secondSection .box {
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.secondSection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 120px;
+}
+
+.image-top {
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+
+.vertical-title {
+    position: relative;
+    width: 150px;
+    top: 75px;
+}
+
+.vertical-disc {
+    position: relative;
+    top: 86px;
+    color: gray;
+    width: 150px;
+    font-size: 9px;
+}
+
+.about{
+    display: flex;
+    justify-content: space-around;
+    margin: 120px 0px;
+
+}
+.img{
+    width: 30vw;
+    display: flex;
+    justify-content: center;  
+ }
+#devimg{
+    width: 300px;
+    height: 300px;
+    margin-left: 30px;
+    border-radius: 50%;
+    border: 1px solid rgb(170, 107, 228);
+    padding: 10px; 
+
+}
+.info{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+
+    padding: 50px;
+ }
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer div{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+#venu-logo{
+    font-size: 30px;
+}
+
+.projects, .contact{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 30px;
+    gap:30px;
+}
+.contact{
+    margin-top: 120px;
+}
+.contact img{
+    width: 300px;
+    height: 350px;
+}
+.contact div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:30px
+}
+.contactme{
+    background-color: rgb(18, 18, 62);
+    text-decoration: none;
+    color:grey;
+    padding: 10px;
+    width: 200px;
+    border-radius: 18px;
+    text-align: center;
+}
+
+.projects a{
+    text-decoration: none;
+}
+.card{
+    width: 250px;
+    height:300px;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    border:1px solid white;
+    padding: 30px;
+    border-radius: 18px;
+    color:gray;
+    box-shadow: rgb(33, 23, 233) 0px 7px 29px 0px;
+}
+.card img{
+    height: 50px;
+}
+.card h3{
+    color:rgb(170, 107, 228);
+}
+
+@media screen and (max-width) {
+    section{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 10px 10px;
+    }
+}
